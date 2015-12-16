@@ -54,7 +54,7 @@ public class Student {
     }
     
     /* Returns true if today is student's birthday, false otherwise */
-    public boolean isBirthday(Date today) {
+    public boolean isBirthday() {
         Calendar now = Calendar.getInstance();
         Calendar dob = Calendar.getInstance();
         dob.setTime(birthdate);
